@@ -1,0 +1,26 @@
+var NAVTREEINDEX0 =
+{
+"annotated.html":[1,0],
+"classes.html":[1,1],
+"classpredictor_1_1_customer_behavior_predictor.html":[0,0,0,0],
+"classpredictor_1_1_customer_behavior_predictor.html":[1,0,0,0],
+"classpredictor_1_1_customer_behavior_predictor.html#a7f26d6dc9f06533875478369f8470f3b":[0,0,0,0,2],
+"classpredictor_1_1_customer_behavior_predictor.html#a7f26d6dc9f06533875478369f8470f3b":[1,0,0,0,2],
+"classpredictor_1_1_customer_behavior_predictor.html#ab5e1af28a0870d16f23085f7e16ff63c":[0,0,0,0,1],
+"classpredictor_1_1_customer_behavior_predictor.html#ab5e1af28a0870d16f23085f7e16ff63c":[1,0,0,0,1],
+"classpredictor_1_1_customer_behavior_predictor.html#abbed2d1ebe5cf0f530257e3771f95e47":[0,0,0,0,3],
+"classpredictor_1_1_customer_behavior_predictor.html#abbed2d1ebe5cf0f530257e3771f95e47":[1,0,0,0,3],
+"classpredictor_1_1_customer_behavior_predictor.html#afc15ea5e9fb965d3268a1174bb692bc9":[0,0,0,0,0],
+"classpredictor_1_1_customer_behavior_predictor.html#afc15ea5e9fb965d3268a1174bb692bc9":[1,0,0,0,0],
+"dir_8a83dc0d137469e44964ecb7956f3d6e.html":[2,0,0,0],
+"dir_b9d9107b8fac9ae7d04d69d4f797890f.html":[2,0,0],
+"files.html":[2,0],
+"functions.html":[1,2,0],
+"functions_func.html":[1,2,1],
+"functions_vars.html":[1,2,2],
+"index.html":[],
+"namespacepredictor.html":[0,0,0],
+"namespaces.html":[0,0],
+"pages.html":[],
+"predictor_8py.html":[2,0,0,0,0]
+};

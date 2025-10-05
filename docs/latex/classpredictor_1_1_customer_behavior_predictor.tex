@@ -1,0 +1,75 @@
+\doxysection{predictor.\+Customer\+Behavior\+Predictor Class Reference}
+\hypertarget{classpredictor_1_1_customer_behavior_predictor}{}\label{classpredictor_1_1_customer_behavior_predictor}\index{predictor.CustomerBehaviorPredictor@{predictor.CustomerBehaviorPredictor}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classpredictor_1_1_customer_behavior_predictor_afc15ea5e9fb965d3268a1174bb692bc9}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, str \mbox{\hyperlink{classpredictor_1_1_customer_behavior_predictor_abbed2d1ebe5cf0f530257e3771f95e47}{model\+\_\+path}})
+\item 
+float \mbox{\hyperlink{classpredictor_1_1_customer_behavior_predictor_a7f26d6dc9f06533875478369f8470f3b}{predict}} (self, dict user\+\_\+data)
+\item 
+\mbox{\hyperlink{classpredictor_1_1_customer_behavior_predictor_ab5e1af28a0870d16f23085f7e16ff63c}{load\+\_\+model}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classpredictor_1_1_customer_behavior_predictor_abbed2d1ebe5cf0f530257e3771f95e47}{model\+\_\+path}} = model\+\_\+path
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@class CustomerBehaviorPredictor
+@brief Класс для анализа и прогнозирования поведения покупателей.
+\end{DoxyVerb}
+ 
+
+\label{doc-constructors}
+\Hypertarget{classpredictor_1_1_customer_behavior_predictor_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classpredictor_1_1_customer_behavior_predictor_afc15ea5e9fb965d3268a1174bb692bc9}\index{predictor.CustomerBehaviorPredictor@{predictor.CustomerBehaviorPredictor}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!predictor.CustomerBehaviorPredictor@{predictor.CustomerBehaviorPredictor}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily \label{classpredictor_1_1_customer_behavior_predictor_afc15ea5e9fb965d3268a1174bb692bc9} 
+predictor.\+Customer\+Behavior\+Predictor.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{str}]{model\+\_\+path}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Конструктор класса.
+@param model_path Путь к обученной модели.
+\end{DoxyVerb}
+ 
+
+\label{doc-func-members}
+\Hypertarget{classpredictor_1_1_customer_behavior_predictor_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classpredictor_1_1_customer_behavior_predictor_ab5e1af28a0870d16f23085f7e16ff63c}\index{predictor.CustomerBehaviorPredictor@{predictor.CustomerBehaviorPredictor}!load\_model@{load\_model}}
+\index{load\_model@{load\_model}!predictor.CustomerBehaviorPredictor@{predictor.CustomerBehaviorPredictor}}
+\doxysubsubsection{\texorpdfstring{load\_model()}{load\_model()}}
+{\footnotesize\ttfamily \label{classpredictor_1_1_customer_behavior_predictor_ab5e1af28a0870d16f23085f7e16ff63c} 
+predictor.\+Customer\+Behavior\+Predictor.\+load\+\_\+model (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Загрузка обученной модели.
+\end{DoxyVerb}
+ \Hypertarget{classpredictor_1_1_customer_behavior_predictor_a7f26d6dc9f06533875478369f8470f3b}\index{predictor.CustomerBehaviorPredictor@{predictor.CustomerBehaviorPredictor}!predict@{predict}}
+\index{predict@{predict}!predictor.CustomerBehaviorPredictor@{predictor.CustomerBehaviorPredictor}}
+\doxysubsubsection{\texorpdfstring{predict()}{predict()}}
+{\footnotesize\ttfamily \label{classpredictor_1_1_customer_behavior_predictor_a7f26d6dc9f06533875478369f8470f3b} 
+ float predictor.\+Customer\+Behavior\+Predictor.\+predict (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{dict}]{user\+\_\+data}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Прогнозирование вероятности покупки.
+@param user_data Данные о пользователе.
+@return Вероятность покупки (от 0 до 1).
+\end{DoxyVerb}
+ 
+
+\label{doc-variable-members}
+\Hypertarget{classpredictor_1_1_customer_behavior_predictor_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classpredictor_1_1_customer_behavior_predictor_abbed2d1ebe5cf0f530257e3771f95e47}\index{predictor.CustomerBehaviorPredictor@{predictor.CustomerBehaviorPredictor}!model\_path@{model\_path}}
+\index{model\_path@{model\_path}!predictor.CustomerBehaviorPredictor@{predictor.CustomerBehaviorPredictor}}
+\doxysubsubsection{\texorpdfstring{model\_path}{model\_path}}
+{\footnotesize\ttfamily \label{classpredictor_1_1_customer_behavior_predictor_abbed2d1ebe5cf0f530257e3771f95e47} 
+predictor.\+Customer\+Behavior\+Predictor.\+model\+\_\+path = model\+\_\+path}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+purchase-\/prediction-\/system/models/\mbox{\hyperlink{predictor_8py}{predictor.\+py}}\end{DoxyCompactItemize}
